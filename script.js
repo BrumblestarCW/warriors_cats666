@@ -1,6 +1,6 @@
 const btnsOpen = document.querySelectorAll('.open-modal');
 btnsOpen.forEach((btn, i) => {
-    btnsOpen.addEventListener('click', function(){
+    btnsOpen[i].addEventListener('click', function(){
         const modal = document.querySelector('.modal');
         modal.classList.add('active');
 
