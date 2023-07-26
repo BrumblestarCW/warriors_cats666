@@ -9,7 +9,7 @@
     width: 95%;
   }
 
-  header{
+header{
     background-color: #284229;
     padding-top: 25px;
     padding-bottom: 50px;
@@ -120,9 +120,21 @@
   font-weight: 400;
   word-wrap: break-word;
   cursor:pointer;
+  border: 3px solid transparent;
   }
 
+  li{
+    border: 3px solid transparent;
+  }
 
+  button:hover {
+    border: #213822 solid 3px;
+  }
+  
+  li:hover {
+    border: #213822 solid 3px;
+  }
+  
 
 
 
@@ -166,6 +178,21 @@
   a{
     text-decoration: none;
     color: white;
+  }
+
+  .check{
+    color: white;
+  font-size: 43px;
+  font-family: Istok Web;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding: 40px, 6px;
+  background-color: #295C2B;
+  margin: 15px;
+  width: 300px;
+  height: 55px;
+  text-align: center;
+  border-radius: 15px;
   }
 
   .grid{
@@ -230,7 +257,7 @@
   .modal-btn{
     font-size: 30px;
   }
-  .about{
+  .about, .check{
     width: 240px;
     font-size: 35px;
   }
@@ -297,7 +324,13 @@
     width: 100px;
     padding: auto, 15px;
     text-align: center;
-
+  
+  }
+  .check{
+    font-size: 20px;
+    width: 150px;
+    padding: auto, 15px;
+    text-align: center;
   }
   .grid{
     display: grid;
